@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Declaração da versão do XML -->
+
+<!-- debug config -->
+<!-- Comentário indicando que este é um arquivo de configuração de depuração -->
+
+<launch>
+    <!-- Define o elemento raiz "launch" -->
+
+	<copy file="erlangen.net.xml" />
+    <!-- Copia o arquivo "erlangen.net.xml" -->
+
+	<copy file="erlangen.rou.xml" />
+    <!-- Copia o arquivo "erlangen.rou.xml" -->
+
+	<copy file="erlangen.poly.xml" />
+    <!-- Copia o arquivo "erlangen.poly.xml" -->
+
+	<copy file="erlangen.sumo.cfg" type="config" />
+    <!-- Copia o arquivo "erlangen.sumo.cfg" e especifica que é um arquivo de configuração -->
+</launch>
+<!-- Marca o fim do documento XML -->
