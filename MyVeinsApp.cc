@@ -7,6 +7,7 @@ void MyVeinsApp::initialize(int stage) {                // Implementação da fu
     if (stage == 0) {                                   // Verifica se o estágio da inicialização é 0.
         //Initializing members and pointers of your application goes here
         EV << "Initializing " << par("appName").stringValue() << std::endl;  // Imprime uma mensagem de inicialização.
+        std::cout << "Initializing" << par("appName").stringValue() << std::endl; // Envia uma mensagem para a saída padrão
     }
     else if (stage == 1) {                              // Verifica se o estágio da inicialização é 1.
         //Initializing members that require initialized other modules goes here
