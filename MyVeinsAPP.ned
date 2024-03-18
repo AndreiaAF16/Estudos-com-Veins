@@ -7,10 +7,11 @@ import org.car2x.veins.modules.application.ieee80211p.BaseWaveApplLayer;  // Imp
 //
 // Comentário explicativo sobre o arquivo de descrição da rede para a sua aplicação Veins. Adicione parâmetros aqui.
 
-simple PrimeiroAPP extends BaseWaveApplLayer  // Declaração da classe MyVeinsApp que estende a classe BaseWaveApplLayer.
+simple MyVeinsApp extends BaseWaveApplLayer  // Declaração da classe MyVeinsApp que estende a classe BaseWaveApplLayer.
 {
-    @class(PrimeiroAPP);  // Anotação que indica que essa classe corresponde à classe MyVeinsApp no script SUMO.
+    @class(MyVeinsApp);  // Anotação que indica que essa classe corresponde à classe MyVeinsApp no script SUMO.
 
     string appName = default("My first Veins App!");  // Declaração de uma variável de string chamada appName com um valor padrão "My first Veins App!".
 }
+
 
